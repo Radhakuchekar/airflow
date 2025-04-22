@@ -1,4 +1,7 @@
-# airflow
+# Apache Airflow
+
+### Prerequisite:
+DockerDesktop, Python 
 ## 1. Build the docker image : 
 ```bash
 docker build --pull --rm -f 'dockerfile' -t 'airflow_demo:latest' '.'
